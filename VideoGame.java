@@ -103,6 +103,7 @@ public class VideoGame {
 	}
 	
 	/**
+	 *
 	 * @param newrating Sets the rating for the video game.
 	 */
 	public void setRating(double newrating){
