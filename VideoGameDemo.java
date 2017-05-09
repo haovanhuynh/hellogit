@@ -11,7 +11,7 @@ public class VideoGameDemo {
 	
 	public static void main(String[] args){
 		
-		System.out.println("Welcome! Thank you for using this program.");
+		System.out.println("WELCOME!\nThank you for using this program.");
 		System.out.println("This program is programmed to store video game data as well as help calculate their trade-in value");
 		System.out.println("Here are some sample outputs of this program below.");
 		System.out.println("");
@@ -189,7 +189,7 @@ public class VideoGameDemo {
 			
 			scan.nextLine(); //Consume the newline left-over
 			
-			System.out.print("Try again? (Y or N) "); //Ask them.
+			System.out.print("Another game information? (Y or N) "); //Ask them.
 			input=scan.nextLine();
 			
 		} while(input.charAt(0)=='Y'||input.charAt(0)=='y');
