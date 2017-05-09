@@ -168,6 +168,14 @@ public class VideoGameDemo {
 			//Create the game of user, using all data of their game as params.
 			VideoGame random = new VideoGame(title,platform,date,rating,price);
 			
+			//Display all game information of the user.
+			System.out.println("\nYour game information");
+			System.out.println("Title: "+random.getTitle());
+			System.out.println("Platform: "+random.getPlatForm());
+			System.out.println("Release Date: "+random.getDate());
+			System.out.println("Rating: "+random.getRating());
+			System.out.println("Price: "+random.getPrice());
+			
 			//Calculate and display the trade-in value.
 			double v=random.TradeInValue();
 			System.out.printf("Current Trade-In Value: %.2f \n",v);
