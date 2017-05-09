@@ -47,7 +47,7 @@ public class VideoGameDemo {
 		System.out.println("\n");
 		
 		//Create the second video game, uses constructor that accepts all params.
-		VideoGame game2 = new VideoGame("Pokemon Apha Sapphire", "Nintendo 3DS","November 21, 2014",9.6,39.99);
+		VideoGame game2 = new VideoGame("Pokemon Alpha Sapphire", "Nintendo 3DS","November 21, 2014",9.6,39.99);
 		
 		//Display the data from the params for game 2.
 		System.out.println("Title: "+game2.getTitle());
